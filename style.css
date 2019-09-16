@@ -1,4 +1,16 @@
-h1 {
-  color: #4f7fda;
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+}
+
+#logo a {
+  color: #2771fa;
+  font-size: 3em;
+  padding: 30px 0;
+  width: 30px 0;
+}
+
+.navbar {
+  background-color: #94f516 !important;
 }
 /*# sourceMappingURL=style.css.map */
