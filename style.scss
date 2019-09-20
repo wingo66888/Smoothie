@@ -2,11 +2,18 @@
     font-family: 微軟正黑體;
 }
 #logo a{
+    text-decoration: none;
     color:rgb(39, 113, 250);
-    font-size: 3em;
+    font-size: 4em;
+    font-weight: 650;
     padding: 30px 0;
     width: 30px 0;
 }
-.navbar{
-    background-color: rgb(148, 245, 22) !important;
+.navbar {
+    background-color:rgb(153, 255, 204) !important;
+    text-align: right;
+}
+.carousel img{
+    height: 60vh;
+    object-fit: cover;
 }

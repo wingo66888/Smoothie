@@ -11,6 +11,12 @@
 }
 
 .navbar {
-  background-color: #94f516 !important;
+  background-color: #99ffcc !important;
+}
+
+.carousel img {
+  height: 60vh;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 /*# sourceMappingURL=style.css.map */
