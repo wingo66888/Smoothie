@@ -20,6 +20,19 @@
 .slider button{
     display: none !important;
 }
+#back-to-top{
+    background-color: rgb(59, 193, 255);
+    color:gold;
+    width:60px;
+    height: 60px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 75%;
+    position: fixed;
+    right:30px;
+    bottom:30px;
+    cursor: pointer;
+}
 body{
     background-image: url(img/ice\ cube.jpg);
 }
