@@ -10,16 +10,21 @@
     width: 30px 0;
 }
 .navbar {
-    background-color:rgb(153, 255, 204) !important;
     text-align: right;
 }
 .carousel img{
-    height: 60vh;
+    height: 35%;
     object-fit: cover;
 }
-.slider button{
-    display: none !important;
-}
+.slider{
+    height: 35px;
+    margin: 35px;
+    padding: 35px; 
+    
+    button{
+        display: none !important;
+    }
+} 
 #back-to-top{
     background-color: rgb(59, 193, 255);
     color:gold;
@@ -28,9 +33,10 @@
     text-align: center;
     line-height: 50px;
     border-radius: 75%;
+    box-shadow:0 3px 5px rgba(0,0,0,0.5);
     position: fixed;
-    right:30px;
-    bottom:30px;
+    right: 30px;
+    bottom: 30px;
     cursor: pointer;
 }
 body{
